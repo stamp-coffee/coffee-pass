@@ -1,0 +1,14 @@
+<%= react_component 'ShopsShow',
+                    shop: @shop
+%>
+
+<% content_for(:stylesheet) do %>
+  <style>
+    html, body { height: 100%; margin: 0; padding: 0; }
+    #map { height: 100%; }
+  </style>
+<% end %>
+
+<% content_for(:javascript) do %>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBX4mx0k8LWsAdAFs4b1X6nyItTd7IOwS8"></script>
+<% end %>
