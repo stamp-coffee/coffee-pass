@@ -1,0 +1,8 @@
+root = true
+
+[*.{rb,js,jsx,css,scss,erb}]
+end_of_file = lf
+insert_final_newline = true
+indent_style = space
+indent_size = 2
+
